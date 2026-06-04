@@ -1,4 +1,4 @@
-# 🥗 Nutrition Myth-Buster Hub
+# 🥗 Nutrition Myth-Buster
 
 A fun, interactive website dedicated to busting common nutrition myths with science-backed information. Explore myths, flip cards to reveal truths, and test your nutrition knowledge with our interactive quiz!
 

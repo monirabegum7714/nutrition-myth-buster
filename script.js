@@ -4,29 +4,29 @@
 
 const mythsData = [
     {
-        myth: "Carbs make you fat.",
+        myth: "🍞 Carbs make you fat.",
         truth: "Not all carbs are bad! Complex carbs like whole grains, vegetables, and legumes are essential for energy and health. It's excess calories that lead to weight gain, not carbs specifically.",
-        icon: "🍞"
+        // icon: "🍞"
     },
     {
-        myth: "Late-night eating is always bad.",
+        myth: "🌙 Late-night eating is always bad.",
         truth: "Timing matters less than total daily calories. Eating late at night is fine if you're hungry and maintain a balanced diet. The key is portion control, not the clock.",
-        icon: "🌙"
+        // icon: "🌙"
     },
     {
-        myth: "Detox juices cleanse your body.",
+        myth: "🧃Detox juices cleanse your body.",
         truth: "Your liver and kidneys already detoxify your body naturally. There's no scientific evidence that detox juices remove toxins. A balanced diet and hydration are more beneficial.",
-        icon: "🧃"
+        // icon: "🧃"
     },
     {
-        myth: "High-protein diets damage kidneys.",
+        myth: "💪 High-protein diets damage kidneys.",
         truth: "For healthy individuals, high protein doesn't damage kidneys. People with kidney disease need to monitor intake, but healthy kidneys can handle extra protein without issues.",
-        icon: "💪"
+        // icon: "💪"
     },
     {
-        myth: "Fat-free foods are always healthier.",
+        myth: "🥑 Fat-free foods are always healthier.",
         truth: "Fat is essential for nutrient absorption and hormone production. Fat-free products often have added sugar. Healthy fats from avocados, nuts, and fish are beneficial.",
-        icon: "🥑"
+        // icon: "🥑"
     }
 ];
 
@@ -189,11 +189,11 @@ function handleQuizAnswer(isCorrect, clickedButton) {
         state.score++;
         feedbackMessage.classList.add('correct');
         feedbackMessage.textContent = `✅ Correct! ${currentQuestion.explanation}`;
-        triggerConfetti(clickedButton);
+        // triggerConfetti(clickedButton);
     } else {
         feedbackMessage.classList.add('incorrect');
         feedbackMessage.textContent = `❌ Incorrect! ${currentQuestion.explanation}`;
-        triggerShatter(clickedButton);
+        // triggerShatter(clickedButton);
     }
     
     feedbackMessage.classList.add('show');
@@ -223,7 +223,7 @@ function showQuizResults() {
     document.getElementById('scorePercentage').textContent = percentage + '%';
     
     // Trigger celebration animation
-    triggerConfetti(document.querySelector('.quiz-results'));
+    // triggerConfetti(document.querySelector('.quiz-results'));
 }
 
 function resetQuiz() {
