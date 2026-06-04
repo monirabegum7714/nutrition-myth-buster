@@ -116,10 +116,10 @@ function createMythCard(mythData, index) {
     card.addEventListener('click', () => {
         card.classList.toggle('flipped');
         
-        // Trigger balloon pop animation
-        if (card.classList.contains('flipped')) {
-            triggerBalloonPop(card);
-        }
+        // // Trigger balloon pop animation
+        // if (card.classList.contains('flipped')) {
+        //     triggerBalloonPop(card);
+        // }
     });
     
     return card;
